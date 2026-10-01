@@ -16,9 +16,9 @@ Tkinterを用いたGUIを通じて
 ターミナルで以下のコマンドを実行し、必要なライブラリをインストールします。<br>
 ```pip install -r requirements.txt```<br>
 2.APIキーの取得<br>
-[こちら](https://opendata.cwa.gov.tw/userLogin)にアクセスし、アカウント登録・ログイン後、「Get Authorization Key」をクリックしてAPIキーをご取得ください。
+[こちら](https://opendata.cwa.gov.tw/userLogin)にアクセスし、アカウント登録・ログイン後、「Get Authorization Key」をクリックしてAPIキーをご取得ください。<br>
 3.環境変数の設定<br>
-ルートディレクトリの .env に取得した APIキー と MongoDB Clusterの接続URL をそれぞれご記述ください。<br>
+pyファイルと同じディレクトリの .env に 取得した APIキー と MongoDB Clusterの接続URL をそれぞれご記述ください。<br>
 <br><br>
 使い方<br>
 データ取得・同期の実行<br>
