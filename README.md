@@ -18,7 +18,7 @@ Tkinterを用いたGUIを通じて
 2.APIキーの取得<br>
 [こちら](https://opendata.cwa.gov.tw/userLogin)にアクセスし、アカウント登録・ログイン後、「Get Authorization Key」をクリックしてAPIキーをご取得ください。<br>
 3.環境変数の設定<br>
-pyファイルと同じディレクトリの .env に 取得した APIキー と MongoDB Clusterの接続URL をそれぞれご記述ください。<br>
+pyファイルと同じディレクトリの .env.example に 取得した APIキー と MongoDB Clusterの接続URL をそれぞれご記述ください。ファイル名を .env にご変更ください<br>
 <br><br>
 使い方<br>
 データ取得・同期の実行<br>
